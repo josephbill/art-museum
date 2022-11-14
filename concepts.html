@@ -1,0 +1,56 @@
+<!-- tags / starting tags and closing tags  --\>
+     <!--  strating tag : <>  closing tag : </>  -->
+     <!-- nesting of tags -->
+     <!-- inside the tags we place our HTML element name  -->
+     <!-- signifies the script or the file is a HTML markup script -->
+     <!DOCTYPE html>
+<html>
+    <!-- head tag : meta data about the page -->
+    <!-- links to the stylesheets : external css file , extra info about the page : author and language -->
+    <!-- extra tools : bootstrap : title -->
+    <head>
+    <title>Art Museum: Home</title>
+    <!-- other meta data -->
+    <!-- write css inside this section : by placing the code within the style element -->
+    <link href="styles/styles.css">
+    <link href="file.css">
+    <style>
+        /* css code */
+        /* inline css , internal css and external css  */
+        /* selector {
+            styling=property : value
+        } */
+        /* selector : element name , id, class */
+        #secondPara {
+           background-color: red; 
+        }
+        .paraClass {
+            background-color: purple;
+        }
+        button {
+            background-color: yellow;
+        }
+        .center {
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+        }
+    </style>
+    </head>
+
+    <body>
+        <!-- html elements : block level elements and inline elements -->
+        <!-- what the client sees and interacts with : layouts <div> : Interactive elements <buttons> <p> -->
+            <p style="background-color: black;">Hello World :  First HTML PAGE!!</p>
+            <p id="secondPara">Second Paragraph</p>
+            <p class="paraClass">Third Paragraph</p>
+            <img class="center" src="./assests/download.jfif" height="300" width="300"/>
+            <button class="paraClass">Click me</button>
+            <button>Second Button</button>
+        
+    </body>
+    <script>
+        // This element allows us to write JS within our html file
+        // JS code can reside here.
+    </script>
+</html>
